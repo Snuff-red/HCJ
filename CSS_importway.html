@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSSImportWay</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <style>
+        p{
+            color:red;
+            font-size: 26px;
+
+        }
+
+        h2{
+            color:yellow ;
+        }
+
+        .father > .son{
+            color:brown;
+        }
+
+        .father p{
+            color: aqua;
+        }
+    </style>
+
+</head>
+
+<body>
+    <p>This is a txt that applied CSS style.</p>
+    <h1 style="color: blue">This is a first head.</h1>
+    <h2>This is a second head</h2>
+    <h3>This is a third head</h3>
+
+    <div class="father">
+        <p class="son">This is a son example</p>
+        <div> 
+            <p class="grandson">This is a grandson example</p>
+        </div>
+    </div>
+</body>

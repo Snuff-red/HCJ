@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS float</title>
+
+    <style>
+      .father {
+        background-color: black;
+        height: 150px;
+        /* overflow:hidden; */
+      }
+
+      .left-son {
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        float: left;
+      }
+
+      .reft-son {
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        float:right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="left-son">Left float</div>
+      <div class="reft-son">Reft float</div>
+    </div>
+  </body>
+</html>
