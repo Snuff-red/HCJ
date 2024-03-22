@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <button onclick="click_event()">This is a button of event</button> 
+   <input type="text" onfocus="focus_event()" onblur="blur_event()">
+
+   <script>
+
+    function click_event(){
+        alert('This event is happened');
+    }
+
+    function focus_event(){
+        console.log('get the focus point');
+    }
+
+    function blur_event(){
+        console.log('miss the focus point');
+    }
+   </script>
+
+</body>
+</html>
